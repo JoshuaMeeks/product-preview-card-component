@@ -20,4 +20,10 @@ main {
   background-color: #ffffff;
   height: 600px;
   width: 340px;
+  border-radius: 10px;
+}
+
+.mobile-product-image {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
 }

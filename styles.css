@@ -9,10 +9,15 @@ html, body {
 }
 
 main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: hsl(30, 38%, 92%);
   min-height: 100%;
 }
 
 .card {
   background-color: #ffffff;
+  height: 600px;
+  width: 340px;
 }

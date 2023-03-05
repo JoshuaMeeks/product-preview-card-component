@@ -108,6 +108,7 @@ button {
 
   .desktop-product-image {
     display: block;
+    border-radius: 10px 0 0 10px;
   }
 
   .information-container {

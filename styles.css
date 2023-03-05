@@ -28,16 +28,21 @@ main {
   border-radius: 10px 10px 0 0;
 }
 
+.information-wrapper {
+  margin: 1.5em;
+}
+
 .category {
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
   font-weight: 400;
   color: hsl(228, 12%, 48%);
-  letter-spacing: 3px;
+  letter-spacing: 4px;
 }
 
 .product-title {
   font-family: 'Fraunces', serif;
+  color: hsl(212, 21%, 14%);
 }
 
 .product-description {
@@ -50,4 +55,18 @@ main {
   font-family: 'Fraunces', serif;
   font-size: 32px;
   color: hsl(158, 36%, 37%);
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: hsl(228, 12%, 48%);
+}
+
+button {
+  width: 300px;
+  background-color: hsl(158, 36%, 37%);
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  border: none;
 }

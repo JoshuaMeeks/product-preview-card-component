@@ -28,6 +28,10 @@ main {
   border-radius: 10px 10px 0 0;
 }
 
+.desktop-product-image {
+  display: none;
+}
+
 .information-container {
   margin: 1.5em;
 }
@@ -89,4 +93,45 @@ button {
   font-weight: 700;
   border: none;
   border-radius: 10px;
+}
+
+@media (min-width: 500px) {
+  .card {
+    display: flex;
+    height: 440px;
+    width: 600px;
+  }
+
+  .mobile-product-image {
+    display: none;
+  }
+
+  .desktop-product-image {
+    display: block;
+  }
+
+  .information-container {
+    width: 230px;
+    margin: 2em;
+  }
+
+  .category {
+    margin-bottom: 1.5em;
+  }
+
+  .product-title {
+    margin-bottom: .7em;
+  }
+
+  .product-description {
+    margin-bottom: 1.5em;
+  }
+
+  .price-container {
+    margin-bottom: 1.5em;
+  }
+
+  button {
+    width: 240px;
+  }
 }
